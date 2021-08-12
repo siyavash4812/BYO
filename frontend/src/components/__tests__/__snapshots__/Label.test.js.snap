@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label renders Label with size 1em if size is not specified 1`] = `
+.c0 {
+  font-size: 1em;
+  color: #001f3f;
+}
+
+<span
+  className="c0"
+  size="S"
+/>
+`;
+
+exports[`Label renders Label with size 1em if size is not valid 1`] = `
+.c0 {
+  font-size: 1em;
+  color: #001f3f;
+}
+
+<span
+  className="c0"
+  size="S"
+/>
+`;
+
+exports[`Label renders specified Label 1`] = `
+.c0 {
+  font-size: 1em;
+  color: #001f3f;
+}
+
+<span
+  className="c0"
+  size="S"
+/>
+`;
+
+exports[`Label renders specified Label 2`] = `
+.c0 {
+  font-size: 1.5em;
+  color: #001f3f;
+}
+
+<span
+  className="c0"
+  size="M"
+/>
+`;
+
+exports[`Label renders specified Label 3`] = `
+.c0 {
+  font-size: 2em;
+  color: #001f3f;
+}
+
+<span
+  className="c0"
+  size="L"
+/>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardCard renders DashboardCard 1`] = `
+.c1 {
+  font-size: 1em;
+  color: #001f3f;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px dotted peru;
+  margin: 10px 0px;
+  background-color: #DDDDDD;
+}
+
+<div
+  className="c0"
+  data-testid="dashboard-card"
+>
+  <span
+    className="c1"
+    size="S"
+  >
+    Title: 
+    This is title
+  </span>
+  <span
+    className="c1"
+    size="S"
+  >
+    Created: 
+    2021-08-11 14-38-49
+  </span>
+</div>
+`;

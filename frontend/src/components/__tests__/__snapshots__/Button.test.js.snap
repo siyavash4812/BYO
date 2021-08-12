@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders Button with size 1em if size is not specified 1`] = `
+.c0 {
+  font-size: 1em;
+  background-color: #7FDBFF;
+  color: #001f3f;
+  height: 40px;
+}
+
+<button
+  className="c0"
+  size="S"
+/>
+`;

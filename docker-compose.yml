@@ -1,0 +1,51 @@
+version: "3.5"
+
+services:
+  api:
+    depends_on:
+      - mysql-db
+    command: sh -c "./wait-for-it.sh mysql-db:3306 -- npm start"
+    build:
+      context: ./backend
+      target: dev
+    volumes:
+      - ./backend:/src
+    ports:
+      - "80:80"
+    environment:
+      NODE_ENV: development
+      DEBUG: nodejs-docker-express:*
+
+  frontend:
+    depends_on:
+      - api
+    build:
+      context: ./frontend
+      target: development
+    volumes:
+      - ./frontend/src:/app/src
+    ports:
+      - 3000:3000
+
+  mysql-db:
+    platform: linux/x86_64
+    image: mysql:5
+    expose:
+      - "3306"
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: test123
+      MYSQL_DATABASE: definitions
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "mysql -ptest123 -e 'select 1'"]
+      interval: 5s
+      retries: 50
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

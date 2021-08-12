@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardList renders DashboardList 1`] = `
+.c2 {
+  font-size: 1em;
+  color: #001f3f;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px dotted peru;
+  margin: 10px 0px;
+  background-color: #DDDDDD;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+  data-testid="dashboard-list"
+>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      AAA
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      BBB
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      B2B
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      B2C
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      22B
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      133
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      TDD
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      BFD
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      1FF
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+  <div
+    className="c1"
+    data-testid="dashboard-card"
+  >
+    <span
+      className="c2"
+      size="S"
+    >
+      Title: 
+      CCC
+    </span>
+    <span
+      className="c2"
+      size="S"
+    >
+      Created: 
+      2021-08-11 14-38-49
+    </span>
+  </div>
+</div>
+`;
